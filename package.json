@@ -1,0 +1,16 @@
+{
+  "name": "uib-framework-sassy-speaker-shop-yokosumi",
+  "version": "1.0.0",
+  "description": "Recreate the speaker-shop website, this time utilising sass and mixins. Make use of the boilerplate code in the index.html and the assets in the images folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass styles.scss styles.css --no-source-map --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}

@@ -23,7 +23,6 @@ header div p {
   white-space: nowrap;
 }
 header a {
-  text-decoration: none;
   color: hsl(0, 0%, 0%);
 }
 header ul {
@@ -38,10 +37,45 @@ header img {
   height: 1rem;
 }
 
-img {
-  display: none;
-}
-
 body {
   margin: 0 10vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  padding: 3rem;
+  font-family: sans-serif;
+}
+.hero h1 {
+  font-size: 1.8rem;
+  white-space: nowrap;
+  margin-bottom: 1.5rem;
+}
+.hero .intro {
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.hero .watch-story-button {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 0%, 0%);
+  padding: 1em;
+  max-width: fit-content;
+}
+.hero .watch-story-button .button {
+  color: white;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+.hero .watch-story-button img {
+  background-color: hsl(0, 0%, 0%);
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
 }

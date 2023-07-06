@@ -13,8 +13,7 @@ header {
     }
   }
   a {
-    text-decoration: none;
-    color: $link-color;
+    color: $primary-color;
   }
   ul {
     @include flex(1rem);

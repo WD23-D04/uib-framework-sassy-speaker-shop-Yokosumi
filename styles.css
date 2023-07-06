@@ -37,14 +37,6 @@ header img {
   height: 1rem;
 }
 
-body {
-  margin: 0 10vw;
-}
-
-a {
-  text-decoration: none;
-}
-
 .hero {
   padding: 3rem;
   font-family: sans-serif;
@@ -78,4 +70,150 @@ a {
   object-fit: contain;
   width: 20px;
   height: 20px;
+}
+
+.article-1 {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: start;
+  padding: 6rem 35% 0 0;
+  align-items: center;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.article-1 h2 {
+  color: hsl(0, 0%, 96%);
+  font-size: 2rem;
+  width: 15ch;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgb(0, 0, 0);
+}
+.article-1 img {
+  max-width: 3rem;
+  max-height: 3rem;
+  padding: 0.5rem;
+  background-color: white;
+  border: 0.4rem solid hsla(0, 0%, 50%, 0.4);
+  border-radius: 50%;
+  margin-right: 13rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.cards .article-1 {
+  background-image: url(./images/white-box.jpg);
+  background-position: 50%;
+}
+.cards .article-2 {
+  background-image: url(./images/room.jpg);
+}
+.cards .article-3 {
+  background-image: url(./images/black-white.jpg);
+}
+
+.article-2 {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: start;
+  padding: 6rem 35% 0 0;
+  align-items: center;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.article-2 h2 {
+  color: hsl(0, 0%, 96%);
+  font-size: 2rem;
+  width: 15ch;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgb(0, 0, 0);
+}
+.article-2 img {
+  max-width: 3rem;
+  max-height: 3rem;
+  padding: 0.5rem;
+  background-color: white;
+  border: 0.4rem solid hsla(0, 0%, 50%, 0.4);
+  border-radius: 50%;
+  margin-right: 13rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.cards .article-1 {
+  background-image: url(./images/white-box.jpg);
+  background-position: 50%;
+}
+.cards .article-2 {
+  background-image: url(./images/room.jpg);
+}
+.cards .article-3 {
+  background-image: url(./images/black-white.jpg);
+}
+
+.article-3 {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: start;
+  padding: 6rem 35% 0 0;
+  align-items: center;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.article-3 h2 {
+  color: hsl(0, 0%, 96%);
+  font-size: 2rem;
+  width: 15ch;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgb(0, 0, 0);
+}
+.article-3 img {
+  max-width: 3rem;
+  max-height: 3rem;
+  padding: 0.5rem;
+  background-color: white;
+  border: 0.4rem solid hsla(0, 0%, 50%, 0.4);
+  border-radius: 50%;
+  margin-right: 13rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.cards .article-1 {
+  background-image: url(./images/white-box.jpg);
+  background-position: 50%;
+}
+.cards .article-2 {
+  background-image: url(./images/room.jpg);
+}
+.cards .article-3 {
+  background-image: url(./images/black-white.jpg);
+}
+
+footer {
+  margin-top: 2.5rem;
+  padding: 2rem;
+}
+footer p {
+  color: rgb(174, 174, 174);
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0 10vw;
+}
+
+a {
+  text-decoration: none;
 }

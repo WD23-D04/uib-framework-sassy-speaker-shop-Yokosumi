@@ -1,0 +1,59 @@
+@use "mixins" as *;
+@use "variables" as *;
+
+.hero {
+  padding: 3rem;
+  font-family: sans-serif;
+  h1 {
+    font-size: 1.8rem;
+    white-space: nowrap;
+    @include space(1.5rem);
+  }
+  .intro {
+    @include space(2.5rem);
+    font-weight: 500;
+    line-height: 1.6rem;
+  }
+  .watch-story-button {
+    @include flex(0.5rem);
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary-color;
+    padding: 1em;
+    max-width: fit-content;
+    .button {
+      color: white;
+      font-family: monospace;
+      font-size: 1.5rem;
+    }
+    img {
+      background-color: $primary-color;
+      object-fit: contain;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+@for $index from 1 through 3 {
+  .article-#{$index} {
+    @include flex(3rem);
+    @include card-base;
+    @include header_image-settings;
+  }
+
+  .cards {
+    @include flex(2rem);
+    flex-direction: column;
+    .article-1 {
+      background-image: url(./images/white-box.jpg);
+      background-position: 50%;
+    }
+    .article-2 {
+      background-image: url(./images/room.jpg);
+    }
+    .article-3 {
+      background-image: url(./images/black-white.jpg);
+    }
+  }
+}

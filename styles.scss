@@ -2,6 +2,8 @@
 @use "./utilities/header" as *;
 @use "./utilities/variables" as *;
 @use "./utilities/mixins" as *;
+@use "./utilities/main" as *;
+@use "./utilities/footer" as *;
 
 body {
   margin: 0 10vw;
@@ -9,42 +11,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-@mixin space($bottom) {
-  margin-bottom: $bottom;
-}
-
-.hero {
-  padding: 3rem;
-  font-family: sans-serif;
-  h1 {
-    font-size: 1.8rem;
-    white-space: nowrap;
-    @include space(1.5rem);
-  }
-  .intro {
-    @include space(2.5rem);
-    font-weight: 500;
-    line-height: 1.6rem;
-  }
-  .watch-story-button {
-    @include flex(0.5rem);
-    justify-content: space-between;
-    align-items: center;
-    background-color: $primary-color;
-    padding: 1em;
-    max-width: fit-content;
-    .button {
-      color: white;
-      font-family: monospace;
-      font-size: 1.5rem;
-    }
-    img {
-      background-color: $primary-color;
-      object-fit: contain;
-      width: 20px;
-      height: 20px;
-    }
-  }
 }

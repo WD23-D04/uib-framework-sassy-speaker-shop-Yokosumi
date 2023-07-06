@@ -1,0 +1,29 @@
+@use "mixins" as *;
+@use "variables" as *;
+
+header {
+  @include flex(2rem);
+  justify-content: center;
+  padding: 2.5rem;
+  font-size: $header-font-size;
+  div {
+    @include flex(0.5rem);
+    p {
+      white-space: nowrap;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $link-color;
+  }
+  ul {
+    @include flex(1rem);
+    li {
+      list-style-type: none;
+    }
+  }
+  img {
+    width: 1rem;
+    height: 1rem;
+  }
+}

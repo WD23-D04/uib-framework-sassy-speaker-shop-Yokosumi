@@ -1,0 +1,11 @@
+@use "./utilities/reset" as *;
+@use "./utilities/header" as *;
+@use "./utilities/variables" as *;
+
+img {
+  display: none;
+}
+
+body {
+  margin: 0 10vw;
+}
